@@ -21,18 +21,18 @@ Then in WinDbg run `db <memory location of characters> L100` and copy the output
 You may need to adjust the `L100` to get stack alignment correct for copying
 
 ## Visual Demo
-![alt text](ScreenGrabs\ScreenGrab1.png)
+![alt text](https://github.com/0xDropBear/AutoBadChar/blob/main/ScreenGrabs/ScreenGrab1.png)
 
 Copy the badchars string into you Python PoC and then attach WinDbg to your target application. Once running, send your exploit to the machine. Once landed run the command `db <memory location of characters> L100` and copy the output.
 
-![alt text](ScreenGrabs\ScreenGrab2.png)
+![alt text](https://github.com/0xDropBear/AutoBadChar/blob/main/ScreenGrabs/ScreenGrab2.png)
 
 Copy this output into the tool and press `ENTER`. The tool will then return either a new badchar string to use:
 
-![alt text](ScreenGrabs\ScreenGrab3.png)
+![alt text](https://github.com/0xDropBear/AutoBadChar/blob/main/ScreenGrabs/ScreenGrab3.png)
 
 Or, it will complete the check and present you with all the Bad Characters found ready for copying into your POC for reference:
 
-![alt text](ScreenGrabs\ScreenGrab4.png)
+![alt text](https://github.com/0xDropBear/AutoBadChar/blob/main/ScreenGrabs/ScreenGrab4.png)
 
 At any time you can enter `END` to quit the tool gracefully.
