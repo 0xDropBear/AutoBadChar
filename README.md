@@ -9,7 +9,7 @@ Future versions may include PoC's written in other languages and work with other
 
 The code is pretty untested but does work with some messing around the WinDbg command.
 
-## Usuage
+## Usage
 This program works with PoC developed in Python and utilising WinDbg for debugging. 
 
 `python AutoBadChar.py`
